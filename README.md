@@ -4,7 +4,15 @@ This project serves as a boilerplate for a managed workflow [Expo](https://expo.
 
 This is an opinionated starter kit for [React Native](https://facebook.github.io/react-native/)-[Expo](https://expo.io) projects to help kick start mobile applications development.
 
+## Why use this starter kit?
+
+It's an awesome fact that [Expo](https://expo.io) is making it very simple to develop native mobile applications using JavaScript. However, I believe that the architectural aspect of development should also be considered; this is most especially helpful when working with project teams.
+
+This starter kit provides a simple project architecture that worked for my applications and I'm hoping that this will also work for your needs.
+
 ## Quick Start
+
+To get you started on your development journey, follow the instructions below.
 
 1. Clone the repository:
 
@@ -14,18 +22,41 @@ This is an opinionated starter kit for [React Native](https://facebook.github.io
 
    `npm install`
 
-3. Start development
-4. Start the application
+3. Start coding
+4. Run the application
 
    `expo start`
 
 ## Features
 
+### Simple
+
+This starter kit offers a very simple way of creating a managed workflow [Expo](https://expo.io) application. A bare and simplistic application-ready scaffolding is at your disposal to make your development life easier.
+
+### Higher Modularity
+
+Having a higher modularity in your mobile applications can help you identify which functionalities should go where. It's highly recommended to package your modules by feature to limit your scope during development.
+
+## Structure
+
+I consider the file structure below as the most suitable structure for most of my projects because of the features mentioned above.
+
+- `assets`
+  - `fonts`
+  - `images`
+- `routes`
+- `src`
+  - `components`
+  - `config`
+  - `modules`
+  - `styles`
+  - `utils`
+
 ## Dependencies
 
 These are the project dependencies that I believe are going to be useful during development of any application.
 
-You may add or remove existing dependencies as per your need. Listed below are the dependencies without the `expo`, `react`, and `react-native` dependencies.
+You may add or remove existing dependencies as per your need. Listed below are the items without the default `expo`, `react`, and `react-native` dependencies.
 
 1. [Axios](https://www.npmjs.com/package/axios) (`axios`)
    - A Promise based HTTP client.
